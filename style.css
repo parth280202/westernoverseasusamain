@@ -319,7 +319,7 @@ html {
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 0 5rem;
+  padding: 0 10rem;
   position: relative;
 }
 
@@ -402,10 +402,10 @@ html {
 }
 
 .section-2-paragraph {
-  width: 100%;
+  width: 100rem;
   position:absolute;
-  bottom: 14rem;
-  right: 10rem;
+  bottom: 8rem;
+  right: 15rem;
   font-size: 23px;
   line-height: 1;
   color: rgb(14, 11, 11);
@@ -728,7 +728,7 @@ html {
   }
 
   .section-2-paragraph {
-    width: 60rem;
+    width: 90rem;
     right: 10rem;
   }
 
@@ -749,9 +749,9 @@ html {
   }
 
   .section-2-paragraph {
-    width: 60rem;
+    width: 90rem;
     right: 5rem;
-    bottom: 5rem;
+    bottom: 0rem;
   }
 }
 
@@ -795,7 +795,7 @@ html {
   .section-2-paragraph {
     left: 50%;
     transform: translateX(-50%);
-    width: 180rem;
+    width: 80rem;
   }
 
   .section-3 {
@@ -849,7 +849,7 @@ html {
   }
 
   .section-2 {
-    height: 150vh;
+    height: 100vh;
   }
 
   .contact-details div {
