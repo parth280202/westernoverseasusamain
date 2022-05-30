@@ -141,7 +141,7 @@ html {
   height: 100vh;
   background: url(images/loogoo.jpeg) no-repeat;
   background-size: cover;
-  background-blend-mode: overlay;
+  
   
 
 }
@@ -249,15 +249,15 @@ html {
 }
 
 .banner-paragraph {
-  font-size: 90rem;
+  font-size: 6rem;
   font-weight: bolder;
   text-transform: uppercase;
   color: rgb(15, 150, 204);
-  color: rgba(62, 21, 116, 0.6);
-  width: 100%;
+  color: rgba(0, 38, 255, 0.6);
+  width: 30%;
   margin: 0 auto 6rem auto;
-  padding: 10rem 0rem;
-  box-shadow: 5rem 5rem 5rem rgba(0, 0, 0, 0.5);
+  padding: 1rem 0rem;
+  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
   animation: fadeAnimation 1s 1.5s forwards;
@@ -402,20 +402,22 @@ html {
 }
 
 .section-2-paragraph {
-  width: 100rem;
+  width: 200rem;
+  
   position:absolute;
   bottom: 8rem;
-  right: 15rem;
-  font-size: 23px;
-  line-height: 1;
+  right: 5rem;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  line-height: 1.3;
   color: rgb(14, 11, 11);
-  border-top: 0.2rem double #aaa;
-  border-bottom: 0.2rem double #aaa;
-  padding: 1rem;
+  border-top: 0.3rem double #aaa;
+  border-bottom: 0.3rem double #aaa;
+  padding: 2rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction:column;
+  justify-content:left;
+  align-items:flex-start;
   text-align: justify;
   text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.7);
 }
@@ -607,6 +609,7 @@ html {
   display: flex;
   align-items: center;
   padding: 0 10rem;
+  
 }
 
 
@@ -623,7 +626,7 @@ html {
 }
 
 .contact-details div {
-  width: 25rem;
+  width: 30rem;
   text-align: center;
   margin: 4rem;
 }
@@ -635,7 +638,7 @@ html {
 
 .contact-details h3 {
   font-family: "MADE Soulmaze", serif;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 2rem 0;
   color: black;
 }
@@ -728,7 +731,7 @@ html {
   }
 
   .section-2-paragraph {
-    width: 90rem;
+    width: 100rem;
     right: 10rem;
   }
 
@@ -935,71 +938,138 @@ html {
 /* End of Responsive */
 .slider{
   width: 700px;
-  height: 500px;
-  background: url(images/people.jpeg) no-repeat;
-  margin: 100px auto;
+  height: 700px;
+  background: url(images/nayan.jpeg) no-repeat;
+  margin: auto auto;
+
   animation: slide 200s infinite;
+  background-size: cover;
+
   
 }
 @keyframes slide{
   5%{
-    background: url(images/people.jpeg);
+    background: url(images/nayan.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
   }
   10%{
-    background: url(images/people2.jpeg);
+    background: url(images/people2.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   15%{
-    background: url(images/nayan.jpeg);
+    background: url(images/people.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
   }
   20%{
-    background: url(images/whatsapp/11.jpeg);
+    background: url(images/whatsapp/11.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   25%{
-    background: url(images/whatsapp/12.jpeg);
+    background: url(images/whatsapp/12.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   30%{
-    background: url(images/whatsapp/13.jpeg);
+    background: url(images/whatsapp/13.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   35%{
-    background: url(images/whatsapp/14.jpeg);
+    background: url(images/whatsapp/14.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   40%{
-    background: url(images/whatsapp/15.jpeg);
+    background: url(images/whatsapp/15.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   45%{
-    background: url(images/tires3.jpeg);
+    background: url(images/tires3.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   50%{
-    background: url(images/tires6.jpeg);
+    background: url(images/tires6.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   55%{
-    background: url(images/tires8.jpeg);
+    background: url(images/tires8.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   60%{
-    background: url(images/tires10.jpeg);
+    background: url(images/tires10.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   65%{
-    background: url(images/tires11.jpeg);
+    background: url(images/tires11.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   70%{
-    background: url(images/hou7.jpeg);
+    background: url(images/hou7.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   75%{
-    background: url(images/hou8.jpeg);
+    background: url(images/hou8.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   80%{
-    background: url(images/house2.jpeg);
+    background: url(images/house2.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   85%{
-    background: url(images/house3.jpeg);
+    background: url(images/house3.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   90%{
-    background: url(images/house5.jpeg);
+    background: url(images/house5.jpeg)no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   95%{
-    background: url(images/house8.jpeg);
+    background: url(images/house8.jpeg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   100%{
-    background: url(images/house7.jpeg);
+    background: url(images/house7.jpeg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
   }
 }
