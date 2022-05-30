@@ -943,14 +943,14 @@ html {
   margin: 10rem auto;
 
   animation: slide 200s infinite;
-  background-size: cover;
+  background-size: 500px 600px;
 
   
 }
 @keyframes slide{
   5%{
     background: url(images/nayan.jpeg) no-repeat;
-    background-size: cover;
+    background-size: 500px 600px;
   
    
     
