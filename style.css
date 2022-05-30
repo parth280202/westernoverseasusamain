@@ -150,12 +150,15 @@ html {
   width: 40%;
   height: 10px;
   top: 40%;
+  left: auto;
+  
 }
 .log1 img {
   width: 200px;
   padding: 0px;
   height: 200px;
   top: 40%;
+  left: auto;
 }
 .left1{
   text-align: left;
@@ -164,7 +167,7 @@ html {
 
 .banner {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
