@@ -937,118 +937,118 @@ html {
 }
 /* End of Responsive */
 .slider{
-  width: 500px;
+  width: 400px;
   height: 600px;
   background: url(images/nayan.jpeg) no-repeat;
   margin: 10rem auto;
 
   animation: slide 200s infinite;
-  background-size: 500px 600px;
+  background-size: 400px 600px;
 
   
 }
 @keyframes slide{
   5%{
     background: url(images/nayan.jpeg) no-repeat;
-    background-size: 500px 600px;
+    background-size: 400px 600px;
   
    
     
   }
   10%{
     background: url(images/people2.jpeg) no-repeat;
-    background-size: cover;
+    background-size: 400px 600px;
 
   }
   15%{
     background: url(images/people.jpeg) no-repeat;
     
-    background-size: cover;
+    background-size: 400px 600px;
     
   }
   20%{
     background: url(images/whatsapp/11.jpeg) no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   25%{
     background: url(images/whatsapp/12.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   30%{
     background: url(images/whatsapp/13.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   35%{
     background: url(images/whatsapp/14.jpeg)no-repeat;
   
-    background-size: cover;
+    background-size: 400px 600px;
   }
   40%{
     background: url(images/whatsapp/15.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   45%{
     background: url(images/tires3.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   50%{
     background: url(images/tires6.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   55%{
     background: url(images/tires8.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   60%{
     background: url(images/tires10.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   65%{
     background: url(images/tires11.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   70%{
     background: url(images/hou7.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   75%{
     background: url(images/hou8.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   80%{
     background: url(images/house2.jpeg)no-repeat;
  
-    background-size: cover;
+    background-size: 400px 600px;
   }
   85%{
     background: url(images/house3.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   90%{
     background: url(images/house5.jpeg)no-repeat; 
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   95%{
     background: url(images/house8.jpeg)no-repeat;
 
-    background-size: cover;
+    background-size: 400px 600px;
   }
   100%{
     background: url(images/house7.jpeg)no-repeat;
-    background-size: cover;
+    background-size: 400px 600px;
 
   }
 }
