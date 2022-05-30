@@ -150,6 +150,7 @@ html {
   width: 40%;
   height: 10px;
   top: 40%;
+  left:20%;
   
   
 }
@@ -168,7 +169,7 @@ html {
 .banner {
   position: absolute;
   top: 10%;
-  left: 450%;
+  left: 50%;
   transform: translateX(-50%);
   text-align: center;
   width: 100%;
