@@ -1057,3 +1057,29 @@ html {
 
   }
 }
+div.centres3{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0%;    
+  background-color: beige;
+  
+}
+div.centres3.videos{
+  width: 100px;
+  height: 200px;
+}
+button.common-btn1 {
+  background: linear-gradient(90deg, #8b81ef, #6759e8);
+  padding: 15px 30px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-weight: 800;
+  cursor: pointer;
+  margin: 20px 0px;
+  transition: all 0.5s ease;
+}
+
