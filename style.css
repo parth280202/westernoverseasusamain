@@ -202,19 +202,22 @@ html {
 }
 
 .heading-1 {
-  animation: animateHeading 12s 3s infinite;
+  animation: animateHeading 15s 3s infinite;
 }
 
 .heading-2 {
-  animation: animateHeading 12s 6s infinite;
+  animation: animateHeading 15s 6s infinite;
 }
 
 .heading-3 {
-  animation: animateHeading 12s 9s infinite;
+  animation: animateHeading 15s 9s infinite;
 }
 
 .heading-4 {
-  animation: animateHeading 12s 12s infinite;
+  animation: animateHeading 15s 12s infinite;
+}
+.heading-5 {
+  animation: animateHeading 15s 15s infinite;
 }
 
 
