@@ -48,7 +48,9 @@ html {
   top: 1.5rem;
   left: 4rem;
 }
-
+.section-2 .west a{
+  text-decoration: underline;
+}
 .navbar-logo a {
   font-family: "MADE Soulmaze", sans-serif;
   font-size: 2.5rem;
